@@ -124,6 +124,7 @@ public class MainActivity extends ActionBarActivity {
         if (expr.length() > 0) {
             expr.deleteCharAt(expr.length() - 1);
             updateExprDisplay();
+            recalculate();
         }
     }
 
